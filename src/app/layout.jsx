@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           disableTransitionOnChange
         >
           <Header />
-          <div className="pt-20">
+          <div className="mt-24">
             {children}
           </div>
           <Footer/>
