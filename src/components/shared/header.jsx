@@ -11,7 +11,7 @@ export default function Header() {
     <header className='fixed top-0 left-0 h-20 w-full bg-white dark:bg-black shadow-md'>
       <main className='max-w-[1440px] mx-auto w-11/12 flex justify-between items-center h-full px-4 '>
         <div className='flex justify-start items-center gap-3'>
-          <Image src="/logo.svg" alt="Nur Mosque Logo" width={50} height={50} />
+          <Image loading="eager" src="/logo.svg" alt="Nur Mosque Logo" width={50} height={50} />
           <h1 className='font-bold text-2xl'>
             Nur Mosque
           </h1>

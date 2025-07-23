@@ -20,9 +20,9 @@ export default function Footer() {
           </li>
         </ul>
         <div className='flex justify-center items-center gap-4'>
-          <Image src="/icons/facebook.svg" alt="Twitter Icon" width={24} height={24} className="inline-block mr-2" />
-          <Image src="/icons/twitter.svg" alt="Twitter Icon" width={24} height={24} className="inline-block mr-2" />
-          <Image src="/icons/instagram.svg" alt="Twitter Icon" width={24} height={24} className="inline-block mr-2" />
+          <Image loading='eager' src="/icons/facebook.svg" alt="Twitter Icon" width={24} height={24} className="inline-block mr-2" />
+          <Image loading='eager' src="/icons/twitter.svg" alt="Twitter Icon" width={24} height={24} className="inline-block mr-2" />
+          <Image loading='eager' src="/icons/instagram.svg" alt="Twitter Icon" width={24} height={24} className="inline-block mr-2" />
         </div>
         <div>
           <p className='text-sm'>
